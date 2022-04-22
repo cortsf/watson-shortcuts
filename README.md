@@ -1,3 +1,7 @@
+Description:
+
+Conveniently interact with [watson](https://tailordev.github.io/Watson/) using hotkeys. 
+
 Instructions:
 
 0. install watson, dzen2 and dmenu. (bash is also required)
