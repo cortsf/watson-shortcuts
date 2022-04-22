@@ -12,4 +12,4 @@ TO-DO:
 - Use colors to higlight the most relevant information in dzen messages.
 
 Notes:
-- You may have to use more specific paths on all calls to `dzen_notification.sh` for the window manager to know where to find it. I use `~/.bin/dzen_notification.sh`.
+- You may have to use more specific paths on all calls to `dzen_notification.sh` for the windows manager to be able to use these scripts. I use `~/.bin/dzen_notification.sh`.
