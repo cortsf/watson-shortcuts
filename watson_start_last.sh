@@ -8,13 +8,13 @@ if [ "$status" == "No project started." ]; then
 	project=${stringarray[-1]}
 	result="$(watson start "$project")"
 	if [ "$?" == "0" ]; then
-	    dzen_notification.sh "$result" 3 "info"
+	    ~/.bin/dzen_notification.sh "$result" 3 "info"
 	else
-	    dzen_notification.sh "CHECK STATUS" 3 "error"
+	    ~/.bin/dzen_notification.sh "CHECK STATUS" 3 "error"
 	fi
     else
-	dzen_notification.sh "No projects registered. Create a new one." 3 "warning"
+	~/.bin/watson_start.sh # "No projects registered. Create a new one."
     fi
 else
-    dzen_notification.sh "Project is running." 3 "warning"
+    ~/.bin/dzen_notification.sh "Project is running." 3 "warning"
 fi
