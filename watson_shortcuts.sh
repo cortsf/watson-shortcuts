@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#shellcheck disable=all
 
 watson_projects () {
     projects="$(watson projects)"
