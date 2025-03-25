@@ -1,6 +1,6 @@
 # Description
 
-Conveniently interact with [watson](https://tailordev.github.io/Watson/) using hotkeys. 
+Conveniently interact with [watson](https://github.com/jazzband/Watson) using hotkeys. 
 
 # Instructions
 
